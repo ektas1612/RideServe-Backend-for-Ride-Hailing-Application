@@ -1,6 +1,7 @@
 # RideServe-Backend-for-Ride-Hailing-Application
 
 A ride-hailing backend system built using Spring Boot, demonstrating core features such as trip requests, driver assignment, real-time status updates, and service-oriented architecture. Designed with scalability and modularity in mind.
+
 ### Overview
 
 This project serves as the backend for a ride-hailing platform (like Uber or Ola), focusing on:
@@ -10,7 +11,7 @@ This project serves as the backend for a ride-hailing platform (like Uber or Ola
 	•	Integration with external services (e.g., Maps, Notifications – optional)
 	•	Extensible architecture for future frontend or mobile integration
 
-⸻
+---
 
 ### Tech Stack
 
@@ -21,8 +22,7 @@ API Spec -	Swagger / OpenAPI
 Auth -	JWT / OAuth2 (if applicable)
 Others -	Lombok, MapStruct, ModelMapper, etc.
 
-
-⸻
+---
 
 ### Features
 	•	✅ User & Driver Registration/Login
@@ -34,7 +34,7 @@ Others -	Lombok, MapStruct, ModelMapper, etc.
 	•	⏳ (Planned) Notification System
 	•	⏳ (Planned) Real-time Location (via WebSocket or external service)
 
-⸻
+---
 
 📁 Project Structure
 
@@ -48,7 +48,7 @@ src/
 └── util             # Utilities, Mappers
 
 
-⸻
+---
 
 🧪 API Endpoints
 
@@ -62,7 +62,7 @@ Sample APIs
 	•	POST /api/rides/request – Create a new ride request
 	•	PUT /api/rides/{id}/status – Update ride status
 
-⸻
+---
 
 ## 🧠 System Design
 
